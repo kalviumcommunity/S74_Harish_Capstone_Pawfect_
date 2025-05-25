@@ -1,0 +1,18 @@
+{
+  "name": "s74_harish_capstone_pawfect_",
+  "version": "1.0.0",
+  "description": "🐾 Pawfect – Pet Adoption & Care Network\r Project Overview\r Pawfect is an all-in-one web platform built to bridge the gap between pet adopters, shelters, and pet owners. With a clean, user-friendly interface, it streamlines the pet adoption process, assists in locating lost pets, offers reliable pet care resources, and nurtures a compassionate community for animal welfare.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
+  }
+}
