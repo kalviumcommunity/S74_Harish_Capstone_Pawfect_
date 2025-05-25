@@ -65,6 +65,3 @@
 - Gemini API for AI pet matching
 
 ---
-
-## 📁 Project Structure
-
