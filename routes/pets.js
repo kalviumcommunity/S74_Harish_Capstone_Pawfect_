@@ -22,4 +22,13 @@ router.post('/', async (req, res) => {
   }
 });
 
+router.put('/:id', async (req, res) => {
+  try {
+    const updatedPet = await Pet.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    res.json(updatedPet);
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
 module.exports = router;
