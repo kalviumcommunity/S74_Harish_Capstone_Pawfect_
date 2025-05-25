@@ -12,4 +12,14 @@ router.get('/', async (req, res) => {
   }
 });
 
+router.post('/', async (req, res) => {
+  try {
+    const newPet = new Pet(req.body);
+    await newPet.save();
+    res.status(201).json(newPet);
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
 module.exports = router;
