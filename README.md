@@ -1,55 +1,70 @@
-🐾 Pawfect – Pet Adoption & Care Network
-Project Overview
-Pawfect is an all-in-one web platform built to bridge the gap between pet adopters, shelters, and pet owners. With a clean, user-friendly interface, it streamlines the pet adoption process, assists in locating lost pets, offers reliable pet care resources, and nurtures a compassionate community for animal welfare.
+# Pawfect – Pet Adoption & Care Network
 
-Whether you're looking to adopt, report a missing pet, or learn how to better care for your furry friend, Pawfect is your go-to hub.
+## 🐾 Overview
 
-🎯 Project Goals
-Simplify and digitalize the pet adoption journey
+**Pawfect** is a full-stack web application designed to connect pet adopters, shelters, and pet owners through a unified platform. It simplifies the pet adoption process, enables real-time lost & found reporting, and offers pet care resources—all while building a compassionate community for animal lovers.
 
-Enable real-time tracking of lost and found pets
+---
 
-Offer personalized pet health tracking and care tips
+## 🎯 Goals
 
-Support shelters through donations and exposure
+- Simplify and digitalize the pet adoption journey  
+- Real-time tracking for lost and found pets  
+- Personalized pet health tracking and reminders  
+- Support animal shelters through donations and events  
+- Build a connected pet-loving community  
 
-Foster a connected pet-loving community
+---
 
-🔑 Key Features
-🐶 Pet Adoption Listings
-Explore and filter pets by type, breed, age, location, and availability.
+## 🚀 Features
 
-📍 Lost & Found Pets
-Report or search for missing pets within your neighborhood in real time.
+- **Pet Adoption Listings**  
+  Filter by type, breed, age, and location to find the perfect pet.
 
-📄 Pet Profiles
-Detailed profiles with images, health updates, and adoption status.
+- **Lost & Found Pets**  
+  Report or find missing pets in your local area.
 
-🤖 AI-Powered Pet Matcher
-Get intelligent pet matches tailored to your lifestyle and preferences using the Gemini API.
+- **Detailed Pet Profiles**  
+  View photos, health records, and adoption status for each pet.
 
-📅 Pet Health Tracker
-Track vaccinations, vet visits, medications, and receive timely reminders.
+- **AI-Powered Pet Matcher**  
+  Get personalized pet matches using the Gemini API based on your preferences.
 
-🎉 Live Adoption Events
-Participate in virtual or local adoption drives to connect with shelters and pets.
+- **Pet Health Tracker**  
+  Track vaccinations, medical history, and receive health reminders.
 
-📚 Pet Care Resources
-Access blogs, tips, and expert advice for new and seasoned pet parents.
+- **Live Adoption Events**  
+  Discover and join virtual or in-person adoption events.
 
-💝 Donations & Support
-Seamless donations to partner shelters through Stripe or Razorpay integrations.
+- **Pet Care Resources**  
+  Access blogs, care tips, and expert guidance for pet parents.
 
-🛠 Tech Stack
-Frontend: React.js
+- **Donations & Shelter Support**  
+  Donate directly to shelters via Stripe or Razorpay integrations.
 
-Backend: Node.js, Express.js
+---
 
-Database: MongoDB Atlas
+## 🛠 Tech Stack
 
-Authentication: Firebase Auth / JWT
+**Frontend**  
+- React.js
 
-APIs: Google Maps API, Stripe or Razorpay for payments
+**Backend**  
+- Node.js  
+- Express.js
 
-AI Integration: Gemini API for pet matchmaking and content generation
+**Database**  
+- MongoDB Atlas
+
+**Authentication**  
+- Firebase Auth or JWT
+
+**APIs**  
+- Google Maps API  
+- Stripe / Razorpay for donations  
+- Gemini API for AI pet matching
+
+---
+
+## 📁 Project Structure
 
