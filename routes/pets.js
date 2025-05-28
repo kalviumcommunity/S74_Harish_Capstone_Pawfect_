@@ -3,7 +3,7 @@ const router = express.Router();
 const Pet = require('../models/pet');
 
 
-router.get('/', async (req, res) => {
+router.get('/get', async (req, res) => {
   try {
     const pets = await Pet.find();
     res.json(pets);
@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.post('/', async (req, res) => {
+router.post('/post', async (req, res) => {
   try {
     const newPet = new Pet(req.body);
     await newPet.save();
