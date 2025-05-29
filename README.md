@@ -44,4 +44,8 @@
 Backend Deployment Link:
 https://s74-harish-capstone-pawfect.onrender.com
 
+---
+frontend Deployment Link:
+https://s74-harish-capstone-pawfect-jbol.vercel.app/
+
 
