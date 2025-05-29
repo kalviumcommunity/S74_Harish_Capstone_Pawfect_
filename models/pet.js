@@ -28,9 +28,25 @@ const PetSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now
-  }
+  },
+    owner: {
+       type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
+       }
+});
+const userSchema = new mongoose.Schema({
+  name: String,
+  email: String,
+  pets: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Pet' }]
 });
 
+
+
 const Pet = mongoose.model('Pet', PetSchema);
+const User = mongoose.model('User',userSchema);
+
+
 
 module.exports = Pet;
+
+
